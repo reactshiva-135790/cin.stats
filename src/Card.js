@@ -24,7 +24,9 @@ const Card = () => {
         try {
             const res = await axios.get(`https://reward.cryptoxin.com/getSummary`);
             const apiData = res.data;
+            console.log("apiD", apiData);
             setAPIData(apiData);
+
 
             const {
                 total_burn,
@@ -187,7 +189,8 @@ const Card = () => {
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div className="parent card shadow2">
-                                {myDataOnChain - totalCirculateSupply}
+                                {/* {myDataOnChain - totalCirculateSupply} */}
+                                {totalCirculateSupply}
                                 <div className="child">
                                     Total Circulation
                                 </div>
@@ -195,7 +198,8 @@ const Card = () => {
                         </div>
                         <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div className="parent card shadow2">
-                                {myDataOnChain - totalCirculateSupply + totalSupply}
+                                {totalSupply}
+                                {/* {myDataOnChain - totalCirculateSupply + totalSupply} */}
                                 <div className="child">
                                     Total Supply
                                 </div>
