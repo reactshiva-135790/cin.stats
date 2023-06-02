@@ -1,0 +1,59 @@
+.parent {
+    width: 180px;
+    height: 100px;
+    background: #fff;
+    position: relative;
+    color: #000;
+    text-align: center;
+    text-align: center;
+    padding-top: 40px;
+
+
+}
+
+.child {
+    display: block;
+    width: 50%;
+    height: 30px;
+    background: #0d4a6c;
+    border: none;
+    color: #fff;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card {
+    background: #fff;
+    width: auto;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+
+.shadow2 {
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}
+
+
+.card-one {
+    background: #fff;
+    width: 100px;
+    border-radius: 20px;
+    margin: 25px auto;
+}
+
+.jkgfkgjl {
+    margin: auto;
+    gap: 65px;
+}
+
+/*@media(max-width:992px) {
+    .jkgfkgjl {
+        margin: auto;
+        gap: 100px;
+    }
+}*/

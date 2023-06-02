@@ -1,0 +1,37 @@
+{
+  "name": "Cinstats Cryptoxin",
+  "short_name": "Cinstats Cryptoxin",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "android-chrome-192×192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "log.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "android-chrome-512×512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
